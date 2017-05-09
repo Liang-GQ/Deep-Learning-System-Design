@@ -25,9 +25,25 @@ Readings before you start. Definitely, Rome was not built in a day.
 * [Principles of Distributed Systems](http://dcg.ethz.ch/lectures/podc_allstars/lecture/podc.pdf) [ETH Zurich University]
 * [Deep Learning](http://www.deeplearningbook.org) [An MIT Press book]
 
+
+## Architecture Design
+
+* [NNVM](https://github.com/dmlc/nnvm) By [Tianqi Chen](http://homes.cs.washington.edu/~tqchen/) - Co-author of MXNet
+
+A modular, decentralized and lightweight part to help build deep learning libraries.
+
+* [Weld - LLVM](https://weld-project.github.io) By [Matei Zaharia](https://cs.stanford.edu/~matei/)  - Co-author of Spark
+
+A runtime for data analytics applications that changes the **interface** between software libraries to enable powerful cross-library optimizations. 
+
+
+## Optimization
+
 ## Memory Design
 * [Training Deep Nets with Sublinear Memory Cost](https://arxiv.org/abs/1604.06174) **Trade computation for memory** - giving a more memory efficient training algorithm with a little extra computation cost.
  
 * [Memory-Efficient Backpropagation Through Time](http://papers.nips.cc/paper/6221-memory-efficient-backpropagation-through-time) [NIPS 2016] Reduce memory consumption for backpropagation through time (BPTT) algorithm in RNNs.
 
 ## Network Design
+* RDMA-based 
+
